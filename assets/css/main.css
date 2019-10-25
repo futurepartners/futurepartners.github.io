@@ -3292,7 +3292,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto,								auto,														auto 100%;
 			}
 
 		}
@@ -4274,6 +4274,9 @@ input, select, textarea {
 						-ms-flex-grow: 0;
 						flex-grow: 0;
 						width: 6rem;
+						-moz-align-items: center;
+						-webkit-align-items: center;
+						-ms-align-items: center;
 					}
 
 					#footer > section.split.contact > section > :last-child {
@@ -4296,9 +4299,9 @@ input, select, textarea {
 					}
 
 					#footer > section.split.contact > section.alt {
-						-moz-align-items: -moz-flex-start;
-						-webkit-align-items: -webkit-flex-start;
-						-ms-align-items: -ms-flex-start;
+						-moz-align-items: center;
+					-webkit-align-items: center;
+					-ms-align-items: center;
 						align-items: flex-start;
 					}
 
